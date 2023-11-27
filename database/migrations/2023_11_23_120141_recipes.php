@@ -11,14 +11,14 @@ return new class extends Migration
     {
         Schema::create('recipes', function (Blueprint $table) {
             $table->id();
-            $table->string('titulo');
-            $table->text('passos');
-            $table->string('pais');
-            $table->unsignedBigInteger("id_user");
-            $table->foreign('id_user')
-            ->references('id')
-            ->on('users')
-            ->onDelete('cascade');
+            $table->string('title');
+            $table->text('instructions');
+            $table->string('country');
+            $table->unsignedBigInteger("user_id");
+            $table->foreign('user_id')
+                ->references('id')
+                ->on('users')
+                ->onDelete('cascade');
             $table->rememberToken();
             $table->timestamps();
         });

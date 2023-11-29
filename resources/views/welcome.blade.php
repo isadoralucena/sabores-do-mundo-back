@@ -54,8 +54,8 @@
         <h1 class="align-middle"><a href="index.html">Sabores do Mundo</a></h1>
     </div>
     <div>
-      <form action="" id="search">
-        <input type="text" name="" id="" style="width: 200px">
+      <form action="{{ route('search') }}" id="search">
+        <input type="text" name="search" id="search" style="width: 200px">
         <button>Enviar</button>
       </form>
       
@@ -129,19 +129,7 @@
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6">
-            <div class="recipe">
-              <div class="pic">
-                <img src="assets/img/generic.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="recipe-info">
-                <h4>Purê de batata</h4>
-                <span>Dona Maria</span>
-                <div class="social">
-                </div>
-              </div>
-            </div>
-          </div>
+          @foreach ($latestRecipes as $recipe)
 
           <div class="col-lg-4 col-md-6">
             <div class="recipe">
@@ -149,27 +137,15 @@
                 <img src="assets/img/generic.jpg" class="img-fluid" alt="">
               </div>
               <div class="recipe-info">
-                <h4>Purê de batata</h4>
-                <span>Dona Maria</span>
+                <h4>{{$recipe->title}}</h4>
+                <span>{{$recipe->user->name}}</span>
                 <div class="social">
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
-            <div class="recipe">
-              <div class="pic">
-                <img src="assets/img/generic.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="recipe-info">
-                <h4>Purê de batata</h4>
-                <span>Dona Maria</span>
-                <div class="social">
-                </div>
-              </div>
-            </div>
-          </div>
+          @endforeach
 
           <div class="text-center">
             <button type="submit" class="book-a-table-btn mx-0 border-0 mt-4">Ver mais</button>

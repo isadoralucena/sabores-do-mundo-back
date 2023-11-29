@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Recipe;
 
 class RecipesController extends Controller
 {
@@ -11,7 +12,15 @@ class RecipesController extends Controller
      */
     public function index()
     {
-        //
+        $latestRecipes = Recipe::latest()->with('user')->take(3)->get();
+        return view('welcome', ['latestRecipes' => $latestRecipes]);
+    }
+
+    public function search(Request $request)
+    {
+        $query = $request->input('search');
+        $recipes = Recipe::where('title', 'like', '%' . $query . '%')->get();
+        return view('search_results', compact('recipes', 'query'));
     }
 
     /**

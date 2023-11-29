@@ -33,6 +33,28 @@ h6 {
   font-family: "Satisfy", sans-serif;
 }
 
+#search input{
+  outline: none;
+  border: 1.5px solid #ffb03b;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  color: white;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+#search button{
+  background-color: #ffb03b;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border: 1px solid #ffb03b;
+  font-size: 15px;
+}
+
+#search button:hover{
+  background-color: #fd7e14;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1228,17 +1250,18 @@ section {
   z-index: 10;
 }
 
-.chefs .member {
+.chefs .recipe {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
 }
 
-.chefs .member .pic {
+.chefs .recipe .pic {
+  max-height: 200px;
   overflow: hidden;
 }
 
-.chefs .member .member-info {
+.chefs .recipe .recipe-info {
   position: absolute;
   bottom: -80px;
   left: 20px;
@@ -1251,7 +1274,7 @@ section {
   transition: max-height 0.5s ease-in-out;
 }
 
-.chefs .member h4 {
+.chefs .recipe h4 {
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 16px;
@@ -1261,7 +1284,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.chefs .member h4::after {
+.chefs .recipe h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -1272,32 +1295,32 @@ section {
   left: calc(50% - 25px);
 }
 
-.chefs .member span {
+.chefs .recipe span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.chefs .member .social {
+.chefs .recipe .social {
   margin-top: 15px;
 }
 
-.chefs .member .social a {
+.chefs .recipe .social a {
   transition: color 0.3s;
   color: #7a7368;
 }
 
-.chefs .member .social a:hover {
+.chefs .recipe .social a:hover {
   color: #ffb03b;
 }
 
-.chefs .member .social i {
+.chefs .recipe .social i {
   font-size: 16px;
   margin: 0 2px;
 }
 
 @media (max-width: 992px) {
-  .chefs .member {
+  .chefs .recipe {
     margin-bottom: 110px;
   }
 }

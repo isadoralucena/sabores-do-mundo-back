@@ -58,7 +58,7 @@
         <li><a class="nav-link scrollto" href="index.html">Página inicial</a></li>
         <li><a class="nav-link scrollto" href="index.html #map">Continentes</a></li>
         <li><a class="nav-link scrollto" href="index.html #forms">Formulário</a></li>
-        <li><a class="nav-link scrollto" href="index.html #chefs">Equipe</a></li>
+        <li><a class="nav-link scrollto" href="{{route('login')}}">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->

@@ -16,6 +16,12 @@ class RecipesController extends Controller
         return view('welcome', ['latestRecipes' => $latestRecipes]);
     }
 
+    public function dashboard()
+    {
+        $recipes = Recipe::with('user')->paginate(5);
+        return view('dashboard', compact('recipes'));
+    }
+
     public function search(Request $request)
     {
         $query = $request->input('search');
@@ -42,9 +48,11 @@ class RecipesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(int $id)
     {
-        //
+        $recipe = Recipe::with('user')->find($id);
+
+        return view('recipes.show', compact('recipe'));
     }
 
     /**

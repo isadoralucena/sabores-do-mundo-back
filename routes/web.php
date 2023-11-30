@@ -18,9 +18,8 @@ use App\Http\Controllers\RecipesController;
 Route::get('/', [RecipesController::class, 'index']);
 Route::get('/search', [RecipesController::class, 'search'])->name('search');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::get('/dashboard', [RecipesController::class, 'dashboard'])->name('dashboard');
+Route::get('/show/{id}', [RecipesController::class, 'show'])->name('show');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

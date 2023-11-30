@@ -90,19 +90,24 @@
 
     <section class="inner-page">
         <div class="container">
-            <div class="row">
+          @foreach ($recipes as $recipe)
+            <div class="row" style="margin-bottom: 10px">
                 <div class="col-lg-4 col-md-6">
                     <div id="recipe-dashboard" class="d-flex align-items-center">
                         <div id="pic-dashboard">
                             <img src="assets/img/generic.jpg" class="img-fluid" id="pic-d">
                         </div>
-                        <div id="recipe-info-dashboard" class="col-lg-6">
-                            <h4>Bolo de batata</h4>
-                            <span>glau</span>
-                        </div>
+                        <a href="{{route('show', $recipe->id)}}">
+                          <div id="recipe-info-dashboard" class="col-lg-6" style="color: #444444">
+                              <h4>{{$recipe->title}}</h4>
+                              <span>{{$recipe->user->name}}</span>
+                          </div>
+                        </a>
                     </div>
                 </div>
             </div>
+          @endforeach
+          {{$recipes->links()}}
         </div>
     </section>
     

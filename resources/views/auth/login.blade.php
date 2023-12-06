@@ -27,6 +27,16 @@
 
         <a class="d-flex justify-content-center" href="{{route('register')}}">Não tem conta? Cadastre-se!</a>
 
+        @if ($errors->any())
+        <div>
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li class="text-danger mt-2">{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+        @endif
+
     </div>
 </form>
 

@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\RecipesController;
+use App\Http\Controllers\RecipeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +15,11 @@ use App\Http\Controllers\RecipesController;
 |
 */
 
-Route::get('/', [RecipesController::class, 'index']);
-Route::get('/search', [RecipesController::class, 'search'])->name('search');
+Route::get('/', [RecipeController::class, 'index']);
+Route::get('/search', [RecipeController::class, 'search'])->name('search');
 
-Route::get('/dashboard', [RecipesController::class, 'dashboard'])->name('dashboard');
-Route::get('/show/{id}', [RecipesController::class, 'show'])->name('show');
+Route::get('/dashboard', [RecipeController::class, 'dashboard'])->name('dashboard');
+Route::get('/show/{id}', [RecipeController::class, 'show'])->name('show');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

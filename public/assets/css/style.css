@@ -93,46 +93,17 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  padding: 0;
-  font-size: 15px;
-  height: 50px;
-  transition: all 0.5s;
-  background: rgba(26, 24, 22, 0.8);
-  z-index: 996;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-#topbar.topbar-transparent {
-  background: transparent;
-}
-
-#topbar.topbar-scrolled {
-  top: -50px;
-}
-
-#topbar i {
-  color: #ffb03b;
-  line-height: 0;
-}
-
-#topbar i span {
-  color: #fff;
-  font-style: normal;
-  padding-left: 5px;
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.header-dynamic {
+    top: 50px;
+}
+
 #header{
-  top: 50px;
   height: 70px;
   z-index: 997;
   transition: all 0.5s;
-  padding: 10px 0;
+  padding: 40px 0;
   background: rgba(26, 24, 22, 0.85);
 }
 
@@ -149,7 +120,7 @@ h6 {
   background: rgba(26, 24, 22, 0.85);
 }
 
-#header .logo h1 {
+#header .logo h1{
   display: inline;
   font-size: 28px;
   margin: 0;
@@ -159,12 +130,12 @@ h6 {
 }
 
 #header .logo h1 a,
-#header .logo h1 a:hover {
+#header .logo h1 a:hover{
   color: #fff;
   text-decoration: none;
 }
 
-#header .logo img {
+#header .logo img{
   padding: 0;
   margin: 0;
   max-height: 55px;
@@ -203,7 +174,7 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -236,7 +207,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 20px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -315,7 +286,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -610,7 +581,7 @@ section {
 }
 
 * p{
-  font-weight: 300; 
+  font-weight: 300;
 }
 
 @media (min-width: 1024px) {
@@ -1655,11 +1626,11 @@ section {
   font-size: 13px;
 }
 
-#footer .logo img {
+#footer .logo img, form .logo img {
   padding: 0;
   margin: 0;
   max-height: 70px;
 }
-#forms{
-  background-color: rgba(248, 246, 246, 0.37);
+.bg-gray {
+  background-color: #EFEFEF;
 }

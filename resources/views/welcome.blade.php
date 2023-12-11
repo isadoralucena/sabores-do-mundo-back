@@ -67,23 +67,25 @@
                 @foreach ($latestRecipes as $recipe)
 
                 <div class="col-lg-4 col-md-6">
-                <div class="recipe">
-                    <div class="pic">
-                    <img src="assets/img/generic.jpg" class="img-fluid" alt="">
+                    <div class="recipe">
+                        <div class="pic">
+                            @if($recipe->photo_path)
+                            <img src="{{ asset('storage/' . $recipe->photo_path) }}" class="img-fluid" id="pic-d" alt="Imagem da Receita">
+                        @else
+                            <img src="assets/img/generic.jpg" class="img-fluid">
+                        @endif
+                        </div>
+                        <div class="recipe-info">
+                            <h4>{{$recipe->title}}</h4>
+                            <span>{{$recipe->user->name}}</span>
+                        </div>
                     </div>
-                    <div class="recipe-info">
-                    <h4>{{$recipe->title}}</h4>
-                    <span>{{$recipe->user->name}}</span>
-                    <div class="social">
-                    </div>
-                    </div>
-                </div>
                 </div>
 
                 @endforeach
 
                 <div class="text-center">
-                <a href="{{route('dashboard')}}"><button type="submit" class="book-a-table-btn mx-0 border-0 mt-4">Ver mais</button></a>
+                    <a href="{{route('dashboard')}}"><button type="submit" class="book-a-table-btn mx-0 border-0 mt-4">Ver mais</button></a>
                 </div>
             </div>
             </div>

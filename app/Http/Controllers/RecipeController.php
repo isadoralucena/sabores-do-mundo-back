@@ -20,7 +20,7 @@ class RecipeController extends Controller
 
     public function dashboard()
     {
-        $recipes = Recipe::with('user')->paginate(5);
+        $recipes = Recipe::with('user')->paginate(10);
         return view('dashboard', compact('recipes'));
     }
 

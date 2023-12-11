@@ -1307,11 +1307,46 @@ section {
 }
 
 #pic-d{
-  min-width: 200px;
+  width: 100%;
+  object-fit: cover; 
 }
 
 #pic-dashboard{
+  min-width: 200px;
+  max-height: 120px;
+  border: 1px solid blue;
   display: inline-block;
+  overflow: hidden;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.pagination {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.pagination-item {
+  margin: 0 5px; 
+}
+
+.pagination-item a, .pagination-item span {
+  padding: 10px 15px; 
+  font-size: 16px; 
+  text-decoration: none;
+  color: #333; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+.pagination-item.active span {
+  background-color: #ffb03b;
+  color: #fff; 
 }
 
 @media (max-width: 992px) {

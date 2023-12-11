@@ -30,7 +30,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div id="recipe-dashboard" class="d-flex align-items-center">
                         <div id="pic-dashboard">
+                          @if($recipe->photo_path)
+                            <img src="{{ asset('storage/' . $recipe->photo_path) }}" class="img-fluid" id="pic-d" alt="Imagem da Receita">
+                          @else
                             <img src="assets/img/generic.jpg" class="img-fluid" id="pic-d">
+                          @endif
                         </div>
                         <a href="{{route('show', $recipe->id)}}">
                           <div id="recipe-info-dashboard" class="col-lg-6" style="color: #444444">

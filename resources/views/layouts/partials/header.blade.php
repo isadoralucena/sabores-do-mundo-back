@@ -6,16 +6,16 @@
         </div>
 
         <div>
-        <form action="{{ route('search') }}" id="search">
-            <input type="text" name="search" id="search" style="width: 200px">
-            <button>Enviar</button>
-        </form>
+            <form action="{{ route('search') }}" id="search">
+                <input type="text" name="search" id="search" style="width: 200px; margin-top: 15px;">
+                <button>Enviar</button>
+            </form>
         </div>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li><a class="nav-link" href="{{route('dashboard')}}">Ver receitas</a></li>
-                <li><a class="nav-link" href="{{route('dashboard')}}">Cadastrar receitas</a></li>
+                <li><a class="nav-link" href="{{route('recipe.create')}}">Cadastrar receitas</a></li>
 
                 @if (!Auth::check())
                 <li><a class="nav-link" href="{{route('login')}}">Login</a></li>

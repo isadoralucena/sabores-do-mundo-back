@@ -15,6 +15,7 @@ return new class extends Migration
             $table->text('instructions');
             $table->string('country');
             $table->unsignedBigInteger("user_id");
+            $table->string('photo_path')->nullable();
             $table->foreign('user_id')
                 ->references('id')
                 ->on('users')

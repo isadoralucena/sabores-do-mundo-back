@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Models\Recipe;
 
@@ -34,7 +36,7 @@ class RecipeController extends Controller
      */
     public function create()
     {
-        //
+        return view('create');
     }
 
     /**
@@ -42,7 +44,29 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'photo' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'instructions' => 'required|string',
+            'country' => 'required|string|max:255',
+        ]);
+
+        if ($request->hasFile('photo')) {
+            $path = $request->file('photo')->store('public/images');
+        } else {
+            $path = null; 
+        }
+
+        $recipe = new Recipe();
+        $recipe->user_id = Auth::id();
+        $recipe->title = $request->input('title');
+        $recipe->instructions = $request->input('instructions');
+        $recipe->country = $request->input('country');
+        $recipe->photo_path = str_replace('public/', '', $path);
+
+        $recipe->save();
+
+        return redirect()->route('dashboard')->with('success', 'Receita cadastrada com sucesso!');
     }
 
     /**

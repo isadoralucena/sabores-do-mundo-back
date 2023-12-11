@@ -19,6 +19,7 @@ class RecipeFactory extends Factory
         return [
             'title' => fake()->name(),
             'instructions' => fake()->text(200),
+            'photo_path' => "",
             'country' => fake()->country(),
             'user_id' => 1,
         ];

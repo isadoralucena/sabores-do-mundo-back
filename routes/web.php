@@ -17,6 +17,8 @@ use App\Http\Controllers\RecipeController;
 
 Route::get('/', [RecipeController::class, 'index']);
 Route::get('/search', [RecipeController::class, 'search'])->name('search');
+Route::get('/create', [RecipeController::class, 'create'])->name('recipe.create');
+Route::post('/create', [RecipeController::class, 'store'])->name('recipe.store');
 
 Route::get('/dashboard', [RecipeController::class, 'dashboard'])->name('dashboard');
 Route::get('/show/{id}', [RecipeController::class, 'show'])->name('show');

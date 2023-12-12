@@ -31,6 +31,12 @@ class RecipeController extends Controller
         return view('search_results', compact('recipes', 'query'));
     }
 
+    public function userRecipes()
+    {
+        $userRecipes = Recipe::where('user_id', Auth::id())->paginate(10);
+        return view('userRecipes', ['recipes' => $userRecipes]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */

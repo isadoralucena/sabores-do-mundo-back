@@ -13,10 +13,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Receitas Cadastradas</h2>
+          <h2>Minhas Receitas</h2>
           <ol>
             <li><a href="/">Home</a></li>
-            <li>dashboard</li>
+            <li>Minhas Receitas</li>
           </ol>
         </div>
 
@@ -24,5 +24,6 @@
     </section><!-- End Breadcrumbs Section -->
 
     @extends('layouts.partials.dashboard')
+
 
   </main><!-- End #main -->

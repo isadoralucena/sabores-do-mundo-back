@@ -1314,9 +1314,9 @@ section {
 #pic-dashboard{
   min-width: 200px;
   max-height: 120px;
-  border: 1px solid blue;
   display: inline-block;
   overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .pagination-container {

@@ -23,7 +23,7 @@
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    @extends('layouts.partials.dashboard')
+    @extends('layouts.partials.user-dashboard')
 
 
   </main><!-- End #main -->

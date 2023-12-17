@@ -1,7 +1,7 @@
 <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <div class="logo me-auto">
-            <a href="/"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+            <a href="/"><img src="{{ asset('assets/img/logo.png')}}" alt="" class="img-fluid"></a>
             <h1 class="align-middle"><a href="/">Sabores do Mundo</a></h1>
         </div>
 
@@ -22,7 +22,7 @@
                 @else
                 <li class="dropdown"><a href=""><i class="fa-solid fa-user"></i><i class="bi bi-chevron-right"></i></a>
                     <ul>
-                        <li><a href="#">Minhas receitas</a></li>
+                        <li><a href="{{route('userRecipes')}}">Minhas receitas</a></li>
                         <li>
                             <form action="{{ route('logout') }}" method="POST">
                                 @csrf

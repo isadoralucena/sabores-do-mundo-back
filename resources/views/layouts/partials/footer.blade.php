@@ -1,7 +1,7 @@
 <footer id="footer">
     <div class="container">
       <div class="logo">
-        <a href="/"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a href="/"><img src="{{ asset('assets/img/logo.png')}}" alt="" class="img-fluid"></a>
         <h1><a href="/">Sabores do Mundo</a></h1>
       </div>
 

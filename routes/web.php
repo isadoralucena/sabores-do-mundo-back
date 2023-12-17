@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RecipeController;
+use App\Http\Controllers\UserRecipes;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +28,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    Route::get('/myRecipes', [RecipeController::class, 'userRecipes'])->name('userRecipes');
+    Route::get('/myRecipes', [UserRecipes::class, 'index'])->name('userRecipes');
+    Route::get('/myRecipes/editar/{id}', [UserRecipes::class, 'edit'])->name('editRecipe');
+    Route::post('/myRecipes/editar', [UserRecipes::class, 'update'])->name('updateRecipe');
 });
 
 require __DIR__.'/auth.php';

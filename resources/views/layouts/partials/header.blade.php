@@ -7,7 +7,7 @@
 
         <div>
             <form action="{{ route('search') }}" id="search">
-                <input type="text" name="search" id="search" style="width: 200px; margin-top: 15px;">
+                <input type="text" name="search" id="search" style="width: 200px; margin-top: 15px;" value="{{ old('search', $query ?? '') }}">
                 <button>Enviar</button>
             </form>
         </div>

@@ -27,8 +27,16 @@ class RecipeController extends Controller
     public function search(Request $request)
     {
         $query = $request->input('search');
-        $recipes = Recipe::where('title', 'like', '%' . $query . '%')->get();
-        return view('search_results', compact('recipes', 'query'));
+
+        $recipes = Recipe::where(function ($queryBuilder) use ($query) {
+            $queryBuilder->where('title', 'like', '%' . $query . '%')
+                        ->orWhereHas('user', function ($userQuery) use ($query) {
+                            $userQuery->where('name', 'like', '%' . $query . '%');
+                        })
+                        ->orWhere('country', 'like', '%' . $query . '%');
+        })->distinct()->paginate(10);
+
+        return view('dashboard', compact('recipes', 'query'));
     }
 
     /**

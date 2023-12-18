@@ -3,7 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RecipeController;
-use App\Http\Controllers\UserRecipes;
+use App\Http\Controllers\UserRecipesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,12 +25,13 @@ Route::get('/dashboard', [RecipeController::class, 'dashboard'])->name('dashboar
 Route::get('/show/{id}', [RecipeController::class, 'show'])->name('show');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    Route::get('/myRecipes', [UserRecipes::class, 'index'])->name('userRecipes');
-    Route::get('/myRecipes/editar/{id}', [UserRecipes::class, 'edit'])->name('editRecipe');
-    Route::post('/myRecipes/editar', [UserRecipes::class, 'update'])->name('updateRecipe');
+    Route::get('/myRecipes', [UserRecipesController::class, 'index'])->name('userRecipes');
+    Route::get('/myRecipes/editar/{id}', [UserRecipesController::class, 'edit'])->name('editRecipe');
+    Route::post('/myRecipes/editar', [UserRecipesController::class, 'update'])->name('updateRecipe');
+});
+
+Route::get('/country/usa', function () {
+    return view('country.usa');
 });
 
 require __DIR__.'/auth.php';

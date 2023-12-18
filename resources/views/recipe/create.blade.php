@@ -2,7 +2,7 @@
 
 @extends('layouts.main')
 
-@section('title', 'Receitas recentes - Sabores do mundo')
+@section('title', 'Criar receita - Sabores do mundo')
 
 @section('content')
 
@@ -125,3 +125,4 @@
 
 
   </main><!-- End #main -->
+@endsection

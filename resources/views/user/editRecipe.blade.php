@@ -2,7 +2,7 @@
 
 @extends('layouts.main')
 
-@section('title', 'Receitas recentes - Sabores do mundo')
+@section('title', 'Editar receita - Sabores do mundo')
 
 @section('content')
 
@@ -118,7 +118,7 @@
                   miniatura.style.display = 'block';
                   iconeCamera.style.display = 'none';
                   botaoImagem.style.backgroundImage = 'url(' + e.target.result + ')';
-                  
+
               };
 
               leitor.readAsDataURL(inputImagem.files[0]);
@@ -132,3 +132,4 @@
 
 
   </main><!-- End #main -->
+@endsection

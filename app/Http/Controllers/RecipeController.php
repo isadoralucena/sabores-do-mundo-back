@@ -36,7 +36,7 @@ class RecipeController extends Controller
      */
     public function create()
     {
-        return view('create');
+        return view('recipe.create');
     }
 
     /**
@@ -54,7 +54,7 @@ class RecipeController extends Controller
         if ($request->hasFile('photo')) {
             $path = $request->file('photo')->store('public/images');
         } else {
-            $path = null; 
+            $path = null;
         }
 
         $recipe = new Recipe();
@@ -76,7 +76,7 @@ class RecipeController extends Controller
     {
         $recipe = Recipe::with('user')->find($id);
 
-        return view('recipes.show', compact('recipe'));
+        return view('recipe.show', compact('recipe'));
     }
 
     /**

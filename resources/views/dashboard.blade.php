@@ -26,4 +26,3 @@
     @extends('layouts.partials.dashboard')
 
   </main><!-- End #main -->
-@endsection

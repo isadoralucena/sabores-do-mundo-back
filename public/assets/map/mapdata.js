@@ -8,9 +8,9 @@ var simplemaps_worldmap_mapdata={
     popups: "detect",
 
     //State defaults
-    state_description: "País ainda não explorado no site",
+    state_description: "Conheça sua gastronomia local",
     state_color: "#c0c0c0",
-    state_hover_color: "#858685",
+    state_hover_color: "#ffb03b",
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
@@ -71,702 +71,860 @@ var simplemaps_worldmap_mapdata={
   },
   state_specific: {
     AF: {
-      name: "Afeganistão"
+        name: "Afeganistão",
+        url: "country/afghanistan"
     },
     AO: {
-      name: "Angola"
+        name: "Angola",
+        url: "country/angola"
     },
     AL: {
-      name: "Albânia"
+        name: "Albânia",
+        url: "country/albania"
     },
     AE: {
-      name: "Emirados Árabes Unidos"
+        name: "Emirados Árabes Unidos",
+        url: "country/united-arab-emirates"
     },
     AR: {
-      name: "Argentina",
-      description: "Conheça sua gastronomia local",
-      url: "argentina.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Argentina",
+        url: "country/argentina",
     },
     AM: {
-      name: "Armênia"
+        name: "Armênia",
+        url: "country/armenia"
     },
     AU: {
-      name: "Austrália",
-      description: "Conheça sua gastronomia local",
-      url: "australia.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Austrália",
+        url: "country/australia"
     },
     AT: {
-      name: "Áustria"
+        name: "Áustria",
+        url: "country/austria"
     },
     AZ: {
-      name: "Azerbaijão"
+        name: "Azerbaijão",
+        url: "country/azerbaijan"
     },
     BI: {
-      name: "Burundi"
+        name: "Burundi",
+        url: "country/burundi"
     },
     BE: {
-      name: "Bélgica"
+        name: "Bélgica",
+        url: "country/belgium"
     },
     BJ: {
-      name: "Benin"
+        name: "Benin",
+        url: "country/benin"
     },
     BF: {
-      name: "Burkina Faso"
+        name: "Burkina Faso",
+        url: "country/burkina-faso"
     },
     BD: {
-      name: "Bangladesh"
+        name: "Bangladesh",
+        url: "country/bangladesh"
     },
     BG: {
-      name: "Bulgária"
+        name: "Bulgária",
+        url: "country/bulgaria"
     },
     BH: {
-      name: "Barém"
+        name: "Barém",
+        url: "country/bahrain"
     },
     BA: {
-      name: "Bósnia e Herzegovina"
+        name: "Bósnia e Herzegovina",
+        url: "country/bosnia-and-herzegovina"
     },
     BY: {
-      name: "Bielorrússia"
+        name: "Bielorrússia",
+        url: "country/belarus"
     },
     BZ: {
-      name: "Belize"
+        name: "Belize",
+        url: "country/belize"
     },
     BO: {
-      name: "Bolívia"
+        name: "Bolívia",
+        url: "country/bolivia"
     },
     BR: {
-      name: "Brasil",
-      description: "Conheça sua gastronomia local",
-      url: "brazil.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Brasil",
+        url: "country/brazil",
     },
     BN: {
-      name: "Brunei Darussalam"
+        name: "Brunei Darussalam",
+        url: "country/brunei-darussalam"
     },
     BT: {
-      name: "Butão"
+        name: "Butão",
+        url: "country/bhutan"
     },
     BW: {
-      name: "Botsuana"
+        name: "Botsuana",
+        url: "country/botswana"
     },
     CF: {
-      name: "República Centro-Africana"
+        name: "República Centro-Africana",
+        url: "country/central-african-republic"
     },
     CA: {
-      name: "Canadá"
+        name: "Canadá",
+        url: "country/canada"
     },
     CH: {
-      name: "Suíça"
+        name: "Suíça",
+        url: "country/switzerland"
     },
     CL: {
-      name: "Chile"
+        name: "Chile",
+        url: "country/chile"
     },
     CN: {
-      name: "China"
+        name: "China",
+        url: "country/china"
     },
     CI: {
-      name: "Costa do Marfim"
+        name: "Costa do Marfim",
+        url: "country/ivory-coast"
     },
     CM: {
-      name: "Camarões"
+        name: "Camarões",
+        url: "country/cameroon"
     },
     CD: {
-      name: "República Democrática do Congo"
+        name: "República Democrática do Congo",
+        url: "country/democratic-republic-of-the-congo"
     },
     CG: {
-      name: "Congo"
+        name: "Congo",
+        url: "country/congo"
     },
     CO: {
-      name: "Colômbia"
+        name: "Colômbia",
+        url: "country/colombia"
     },
     CR: {
-      name: "Costa Rica"
+        name: "Costa Rica",
+        url: "country/costa-rica"
     },
     CU: {
-      name: "Cuba",
-      description: "Conheça sua gastronomia local",
-      url: "cuba.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Cuba",
+        url: "country/cuba",
     },
     CZ: {
-      name: "República Tcheca"
+        name: "República Tcheca",
+        url: "country/czech-republic"
     },
     DE: {
-      name: "Alemanha"
+        name: "Alemanha",
+        url: "country/germany"
     },
     DJ: {
-      name: "Djibuti"
+        name: "Djibuti",
+        url: "country/djibouti"
     },
     DK: {
-      name: "Dinamarca"
+        name: "Dinamarca",
+        url: "country/denmark"
     },
     DO: {
-      name: "República Dominicana"
+        name: "República Dominicana",
+        url: "country/dominican-republic"
     },
     DZ: {
-      name: "Argélia"
+        name: "Argélia",
+        url: "country/algeria"
     },
     EC: {
-      name: "Equador"
+        name: "Equador",
+        url: "country/ecuador"
     },
     EG: {
-      name: "Egito",
-      description: "Conheça sua gastronomia local",
-      url: "egypt.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Egito",
+        url: "country/egypt",
     },
     ER: {
-      name: "Eritreia"
+        name: "Eritreia",
+        url: "country/eritrea"
     },
     EE: {
-      name: "Estônia"
+        name: "Estônia",
+        url: "country/estonia"
     },
     ET: {
-      name: "Etiópia"
+        name: "Etiópia",
+        url: "country/ethiopia"
     },
     FI: {
-      name: "Finlândia"
+        name: "Finlândia",
+        url: "country/finland"
     },
     FJ: {
-      name: "Fiji"
+        name: "Fiji",
+        url: "country/fiji"
     },
     GA: {
-      name: "Gabão"
+        name: "Gabão",
+        url: "country/gabon"
     },
     GB: {
-      name: "Reino Unido"
+        name: "Reino Unido",
+        url: "country/united-kingdom"
     },
     GE: {
-      name: "Geórgia"
+        name: "Geórgia",
+        url: "country/georgia"
     },
     GH: {
-      name: "Gana"
+        name: "Gana",
+        url: "country/ghana"
     },
     GN: {
-      name: "Guiné"
+        name: "Guiné",
+        url: "country/guinea"
     },
     GM: {
-      name: "Gâmbia"
+        name: "Gâmbia",
+        url: "country/gambia"
     },
     GW: {
-      name: "Guiné-Bissau"
+        name: "Guiné-Bissau",
+        url: "country/guinea-bissau"
     },
     GQ: {
-      name: "Guiné Equatorial"
+        name: "Guiné Equatorial",
+        url: "country/equatorial-guinea"
     },
     GR: {
-      name: "Grécia"
+        name: "Grécia",
+        url: "country/greece"
     },
     GL: {
-      name: "Groenlândia"
+        name: "Groenlândia",
+        url: "country/greenland"
     },
     GT: {
-      name: "Guatemala"
+        name: "Guatemala",
+        url: "country/guatemala"
     },
     GY: {
-      name: "Guiana"
+        name: "Guiana",
+        url: "country/guyana"
     },
     HN: {
-      name: "Honduras"
+        name: "Honduras",
+        url: "country/honduras"
     },
     HR: {
-      name: "Croácia"
+        name: "Croácia",
+        url: "country/croatia"
     },
     HT: {
-      name: "Haiti"
+        name: "Haiti",
+        url: "country/haiti"
     },
     HU: {
-      name: "Hungria"
+        name: "Hungria",
+        url: "country/hungary"
     },
     ID: {
-      name: "Indonésia"
+        name: "Indonésia",
+        url: "country/indonesia"
     },
     IN: {
-      name: "Índia"
+        name: "Índia",
+        url: "country/india"
     },
     IE: {
-      name: "Irlanda"
+        name: "Irlanda",
+        url: "country/ireland"
     },
     IR: {
-      name: "Irã"
+        name: "Irã",
+        url: "country/iran"
     },
     IQ: {
-      name: "Iraque"
+        name: "Iraque",
+        url: "country/iraq"
     },
     IS: {
-      name: "Islândia"
+        name: "Islândia",
+        url: "country/iceland"
     },
     IL: {
-      name: "Israel"
+        name: "Israel",
+        url: "country/israel"
     },
     IT: {
-      name: "Itália",
-      description: "Conheça sua gastronomia local",
-      url: "italy.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Itália",
+        url: "country/italy",
     },
     JM: {
-      name: "Jamaica"
+        name: "Jamaica",
+        url: "country/jamaica"
     },
     JO: {
-      name: "Jordânia"
+        name: "Jordânia",
+        url: "country/jordan"
     },
     JP: {
-      name: "Japão",
-      description: "Conheça sua gastronomia local",
-      url: "japan.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Japão",
+        url: "country/japan",
     },
     KZ: {
-      name: "Cazaquistão"
+        name: "Cazaquistão",
+        url: "country/kazakhstan"
     },
     KE: {
-      name: "Quênia"
+        name: "Quênia",
+        url: "country/kenya"
     },
     KG: {
-      name: "Quirguistão"
+        name: "Quirguistão",
+        url: "country/kyrgyzstan"
     },
     KH: {
-      name: "Camboja"
+        name: "Camboja",
+        url: "country/cambodia"
     },
     KR: {
-      name: "Coreia do Sul"
+        name: "Coreia do Sul",
+        url: "country/south-korea"
     },
     XK: {
-      name: "Kosovo"
+        name: "Kosovo",
+        url: "country/kosovo"
     },
     KW: {
-      name: "Kuwait"
+        name: "Kuwait",
+        url: "country/kuwait"
     },
     LA: {
-      name: "Laos"
+        name: "Laos",
+        url: "country/laos"
     },
     LB: {
-      name: "Líbano"
+        name: "Líbano",
+        url: "country/lebanon"
     },
     LR: {
-      name: "Libéria"
+        name: "Libéria",
+        url: "country/liberia"
     },
     LY: {
-      name: "Líbia"
+        name: "Líbia",
+        url: "country/libya"
     },
     LK: {
-      name: "Sri Lanka"
+        name: "Sri Lanka",
+        url: "country/sri-lanka"
     },
     LS: {
-      name: "Lesoto"
+        name: "Lesoto",
+        url: "country/lesotho"
     },
     LT: {
-      name: "Lituânia"
+        name: "Lituânia",
+        url: "country/lithuania"
     },
     LU: {
-      name: "Luxemburgo"
+        name: "Luxemburgo",
+        url: "country/luxembourg"
     },
     LV: {
-      name: "Letônia"
+        name: "Letônia",
+        url: "country/latvia"
     },
     MA: {
-      name: "Marrocos",
-      description: "Conheça sua gastronomia local",
-      url: "morocco.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Marrocos",
+        url: "country/morocco",
     },
     MD: {
-      name: "Moldávia"
+        name: "Moldávia",
+        url: "country/moldova"
     },
     MG: {
-      name: "Madagáscar"
+        name: "Madagáscar",
+        url: "country/madagascar"
     },
     MX: {
-      name: "México",
-      description: "Conheça sua gastronomia local",
-      url: "mexico.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "México",
+        url: "country/mexico",
     },
     MK: {
-      name: "Macedónia do Norte"
+        name: "Macedónia do Norte",
+        url: "country/north-macedonia"
     },
     ML: {
-      name: "Mali"
+        name: "Mali",
+        url: "country/mali"
     },
     MM: {
-      name: "Mianmar (Birmânia)"
+        name: "Mianmar (Birmânia)",
+        url: "country/myanmar"
     },
     ME: {
-      name: "Montenegro"
+        name: "Montenegro",
+        url: "country/montenegro"
     },
     MN: {
-      name: "Mongólia"
+        name: "Mongólia",
+        url: "country/mongolia"
     },
     MZ: {
-      name: "Moçambique"
+        name: "Moçambique",
+        url: "country/mozambique"
     },
     MR: {
-      name: "Mauritânia"
+        name: "Mauritânia",
+        url: "country/mauritania"
     },
     MW: {
-      name: "Malawi"
+        name: "Malawi",
+        url: "country/malawi"
     },
     MY: {
-      name: "Malásia"
+        name: "Malásia",
+        url: "country/malaysia"
     },
     NA: {
-      name: "Namíbia"
+        name: "Namíbia",
+        url: "country/namibia"
     },
     NE: {
-      name: "Níger"
+        name: "Níger",
+        url: "country/niger"
     },
     NG: {
-      name: "Nigéria"
+        name: "Nigéria",
+        url: "country/nigeria"
     },
     NI: {
-      name: "Nicarágua"
+        name: "Nicarágua",
+        url: "country/nicaragua"
     },
     NL: {
-      name: "Países Baixos (Holanda)"
+        name: "Países Baixos (Holanda)",
+        url: "country/netherlands"
     },
     NO: {
-      name: "Noruega"
+        name: "Noruega",
+        url: "country/norway"
     },
     NP: {
-      name: "Nepal"
+        name: "Nepal",
+        url: "country/nepal"
     },
     NZ: {
-      name: "Nova Zelândia",
-      description: "Conheça sua gastronomia local",
-      url: "new-zealand.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Nova Zelândia",
+        url: "country/new-zealand",
     },
     OM: {
-      name: "Omã"
+        name: "Omã",
+        url: "country/oman"
     },
     PK: {
-      name: "Paquistão"
+        name: "Paquistão",
+        url: "country/pakistan"
     },
     PA: {
-      name: "Panamá"
+        name: "Panamá",
+        url: "country/panama"
     },
     PE: {
-      name: "Peru"
+        name: "Peru",
+        url: "country/peru"
     },
     PH: {
-      name: "Filipinas"
+        name: "Filipinas",
+        url: "country/philippines"
     },
     PG: {
-      name: "Papua-Nova Guiné"
+        name: "Papua-Nova Guiné",
+        url: "country/papua-new-guinea"
     },
     PL: {
-      name: "Polónia"
+        name: "Polónia",
+        url: "country/poland"
     },
     KP: {
-      name: "Coreia do Norte"
+        name: "Coreia do Norte",
+        url: "country/north-korea"
     },
     PT: {
-      name: "Portugal"
+        name: "Portugal",
+        url: "country/portugal"
     },
     PY: {
-      name: "Paraguai"
+        name: "Paraguai",
+        url: "country/paraguay"
     },
     PS: {
-      name: "Palestina",
-      description: "Conheça sua gastronomia local",
-      url: "palestine.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Palestina",
+        url: "country/palestine",
     },
     QA: {
-      name: "Catar"
+        name: "Catar",
+        url: "country/qatar"
     },
     RO: {
-      name: "Roménia"
+        name: "Roménia",
+        url: "country/romania"
     },
     RU: {
-      name: "Rússia"
+        name: "Rússia",
+        url: "country/russia"
     },
     RW: {
-      name: "Ruanda"
+        name: "Ruanda",
+        url: "country/rwanda"
     },
     EH: {
-      name: "Saara Ocidental"
+        name: "Saara Ocidental",
+        url: "country/western-sahara"
     },
     SA: {
-      name: "Arábia Saudita"
+        name: "Arábia Saudita",
+        url: "country/saudi-arabia"
     },
     SD: {
-      name: "Sudão"
+        name: "Sudão",
+        url: "country/sudan"
     },
     SS: {
-      name: "Sudão do Sul"
+        name: "Sudão do Sul",
+        url: "country/south-sudan"
     },
     SN: {
-      name: "Senegal"
+        name: "Senegal",
+        url: "country/senegal"
     },
     SL: {
-      name: "Serra Leoa"
+        name: "Serra Leoa",
+        url: "country/sierra-leone"
     },
     SV: {
-      name: "El Salvador"
+        name: "El Salvador",
+        url: "country/el-salvador"
     },
     RS: {
-      name: "Sérvia"
+        name: "Sérvia",
+        url: "country/serbia"
     },
     SR: {
-      name: "Suriname"
+        name: "Suriname",
+        url: "country/suriname"
     },
     SK: {
-      name: "Eslováquia"
+        name: "Eslováquia",
+        url: "country/slovakia"
     },
     SI: {
-      name: "Eslovénia"
+        name: "Eslovênia",
+        url: "country/slovenia"
     },
     SE: {
-      name: "Suécia"
+        name: "Suécia",
+        url: "country/sweden"
     },
     SZ: {
-      name: "Suazilândia"
+        name: "Suazilândia",
+        url: "country/eswatini"
     },
     SY: {
-      name: "Síria"
+        name: "Síria",
+        url: "country/syria"
     },
     TD: {
-      name: "Chade"
+        name: "Chade",
+        url: "country/chad"
     },
     TG: {
-      name: "Togo"
+        name: "Togo",
+        url: "country/togo"
     },
     TH: {
-      name: "Tailândia"
+        name: "Tailândia",
+        url: "country/thailand"
     },
     TJ: {
-      name: "Tajiquistão"
+        name: "Tajiquistão",
+        url: "country/tajikistan"
     },
     TM: {
-      name: "Turcomenistão"
+        name: "Turcomenistão",
+        url: "country/turkmenistan"
     },
     TL: {
-      name: "Timor-Leste"
+        name: "Timor-Leste",
+        url: "country/east-timor"
     },
     TN: {
-      name: "Tunísia"
+        name: "Tunísia",
+        url: "country/tunisia"
     },
     TR: {
-      name: "Turquia"
+        name: "Turquia",
+        url: "country/turkey"
     },
     TW: {
-      name: "Taiwan"
+        name: "Taiwan",
+        url: "country/taiwan"
     },
     TZ: {
-      name: "Tanzânia"
+        name: "Tanzânia",
+        url: "country/tanzania"
     },
     UG: {
-      name: "Uganda"
+        name: "Uganda",
+        url: "country/uganda"
     },
     UA: {
-      name: "Ucrânia"
+        name: "Ucrânia",
+        url: "country/ukraine"
     },
     UY: {
-      name: "Uruguai"
+        name: "Uruguai",
+        url: "country/uruguay"
     },
     US: {
-      name: "Estados Unidos",
-      description: "Conheça sua gastronomia local",
-      url: "country/usa",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Estados Unidos",
+        url: "country/usa"
     },
     UZ: {
-      name: "Uzbequistão"
+        name: "Uzbequistão",
+        url: "country/uzbekistan"
     },
     VE: {
-      name: "Venezuela"
+        name: "Venezuela",
+        url: "country/venezuela"
     },
     VN: {
-      name: "Vietname"
+        name: "Vietnã",
+        url: "country/vietnam"
     },
     VU: {
-      name: "Vanuatu"
+        name: "Vanuatu",
+        url: "country/vanuatu"
     },
     YE: {
-      name: "Iémen"
+        name: "Iémen",
+        url: "country/yemen"
     },
     ZA: {
-      name: "África do Sul"
+        name: "África do Sul",
+        url: "country/south-africa"
     },
     ZM: {
-      name: "Zâmbia"
+        name: "Zâmbia",
+        url: "country/zambia"
     },
     ZW: {
-      name: "Zimbabué"
+        name: "Zimbábue",
+        url: "country/zimbabwe"
     },
     SO: {
-      name: "Somália"
+        name: "Somália",
+        url: "country/somalia"
     },
     GF: {
-      name: "Guiana Francesa"
+        name: "Guiana Francesa",
+        url: "country/french-guiana"
     },
     FR: {
-      name: "França",
-      description: "Conheça sua gastronomia local",
-      url: "france.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "França",
+        url: "country/france"
     },
     ES: {
-      name: "Espanha"
+        name: "Espanha",
+        url: "country/spain"
     },
     AW: {
-      name: "Aruba"
+        name: "Aruba",
+        url: "country/aruba"
     },
     AI: {
-      name: "Anguila"
+        name: "Anguila",
+        url: "country/anguilla"
     },
     AD: {
-      name: "Andorra"
+        name: "Andorra",
+        url: "country/andorra"
     },
     AG: {
-      name: "Antígua e Barbuda"
+        name: "Antígua e Barbuda",
+        url: "country/antigua-and-barbuda"
     },
     BS: {
-      name: "Bahamas",
-      description: "Conheça sua gastronomia local",
-      url: "bahamas.html",
-      color: "#ffb03b",
-      hover_color: "#ffc56e"
+        name: "Bahamas",
+        url: "country/bahamas"
     },
     BM: {
-      name: "Bermudas"
+        name: "Bermudas",
+        url: "country/bermuda"
     },
     BB: {
-      name: "Barbados"
+        name: "Barbados",
+        url: "country/barbados"
     },
     KM: {
-      name: "Comores"
+        name: "Comores",
+        url: "country/comoros"
     },
     CV: {
-      name: "Cabo Verde"
+        name: "Cabo Verde",
+        url: "country/cape-verde"
     },
     KY: {
-      name: "Ilhas Cayman"
+        name: "Ilhas Cayman",
+        url: "country/cayman-islands"
     },
     DM: {
-      name: "Dominica"
+        name: "Dominica",
+        url: "country/dominica"
     },
     FK: {
-      name: "Ilhas Malvinas"
+        name: "Ilhas Malvinas",
+        url: "country/falkland-islands"
     },
     FO: {
-      name: "Ilhas Faroé"
+        name: "Ilhas Faroé",
+        url: "country/faroe-islands"
     },
     GD: {
-      name: "Granada"
+        name: "Granada",
+        url: "country/grenada"
     },
     HK: {
-      name: "Hong Kong"
+        name: "Hong Kong",
+        url: "country/hong-kong"
     },
     KN: {
-      name: "São Cristóvão e Nevis"
+        name: "São Cristóvão e Nevis",
+        url: "country/saint-kitts-and-nevis"
     },
     LC: {
-      name: "Santa Lúcia"
+        name: "Santa Lúcia",
+        url: "country/saint-lucia"
     },
     LI: {
-      name: "Listenstaine"
+        name: "Liechtenstein",
+        url: "country/liechtenstein"
     },
     MF: {
-      name: "São Martinho (Francês)"
+        name: "São Martinho (Francês)",
+        url: "country/saint-martin-french"
     },
     MV: {
-      name: "Maldivas"
+        name: "Maldivas",
+        url: "country/maldives"
     },
     MT: {
-      name: "Malta"
+        name: "Malta",
+        url: "country/malta"
     },
     MS: {
-      name: "Monserrate"
+        name: "Monserrate",
+        url: "country/montserrat"
     },
     MU: {
-      name: "Maurícia"
+        name: "Maurícia",
+        url: "country/mauritius"
     },
     NC: {
-      name: "Nova Caledónia"
+        name: "Nova Caledônia",
+        url: "country/new-caledonia"
     },
     NR: {
-      name: "Nauru"
+        name: "Nauru",
+        url: "country/nauru"
     },
     PN: {
-      name: "Ilhas Pitcairn"
+        name: "Ilhas Pitcairn",
+        url: "country/pitcairn-islands"
     },
     PR: {
-      name: "Porto Rico"
+        name: "Porto Rico",
+        url: "country/puerto-rico"
     },
     PF: {
-      name: "Polinésia Francesa"
+        name: "Polinésia Francesa",
+        url: "country/french-polynesia"
     },
     SG: {
-      name: "Singapura"
+        name: "Singapura",
+        url: "country/singapore"
     },
     SB: {
-      name: "Ilhas Salomão"
+        name: "Ilhas Salomão",
+        url: "country/solomon-islands"
     },
     ST: {
-      name: "São Tomé e Príncipe"
+        name: "São Tomé e Príncipe",
+        url: "country/sao-tome-and-principe"
     },
     SX: {
-      name: "São Martinho (Holandês)"
+        name: "São Martinho (Holandês)",
+        url: "country/sint-maarten-dutch"
     },
     SC: {
-      name: "Seychelles"
+        name: "Seychelles",
+        url: "country/seychelles"
     },
     TC: {
-      name: "Ilhas Turks e Caicos"
+        name: "Ilhas Turks e Caicos",
+        url: "country/turks-and-caicos-islands"
     },
     TO: {
-      name: "Tonga"
+        name: "Tonga",
+        url: "country/tonga"
     },
     TT: {
-      name: "Trindade e Tobago"
+        name: "Trindade e Tobago",
+        url: "country/trinidad-and-tobago"
     },
     VC: {
-      name: "São Vicente e Granadinas"
+        name: "São Vicente e Granadinas",
+        url: "country/saint-vincent-and-the-grenadines"
     },
     VG: {
-      name: "Ilhas Virgens Britânicas"
+        name: "Ilhas Virgens Britânicas",
+        url: "country/british-virgin-islands"
     },
     VI: {
-      name: "Ilhas Virgens dos Estados Unidos"
+        name: "Ilhas Virgens dos EUA",
+        url: "country/us-virgin-islands"
     },
     CY: {
-      name: "Chipre"
+        name: "Chipre",
+        url: "country/cyprus"
     },
     RE: {
-      name: "Reunião"
+        name: "Reunião",
+        url: "country/reunion"
     },
     YT: {
-      name: "Mayotte"
+        name: "Mayotte",
+        url: "country/mayotte"
     },
     MQ: {
-      name: "Martinica"
+        name: "Martinica",
+        url: "country/martinique"
     },
     GP: {
-      name: "Guadalupe"
+        name: "Guadalupe",
+        url: "country/guadeloupe"
     },
     CW: {
-      name: "Curaçau"
+        name: "Curaçao",
+        url: "country/curacao"
     },
     IC: {
-      name: "Ilhas Canárias"
+        name: "Ilhas Canárias",
+        url: "country/canary-islands"
     }
   },
   locations: {},

@@ -72,859 +72,859 @@ var simplemaps_worldmap_mapdata={
   state_specific: {
     AF: {
         name: "Afeganistão",
-        url: "country/afghanistan"
+        url: "search?search=afghanistan"
     },
     AO: {
         name: "Angola",
-        url: "country/angola"
+        url: "search?search=angola"
     },
     AL: {
         name: "Albânia",
-        url: "country/albania"
+        url: "search?search=albania"
     },
     AE: {
         name: "Emirados Árabes Unidos",
-        url: "country/united-arab-emirates"
+        url: "search?search=united-arab-emirates"
     },
     AR: {
         name: "Argentina",
-        url: "country/argentina",
+        url: "search?search=argentina",
     },
     AM: {
         name: "Armênia",
-        url: "country/armenia"
+        url: "search?search=armenia"
     },
     AU: {
         name: "Austrália",
-        url: "country/australia"
+        url: "search?search=australia"
     },
     AT: {
         name: "Áustria",
-        url: "country/austria"
+        url: "search?search=austria"
     },
     AZ: {
         name: "Azerbaijão",
-        url: "country/azerbaijan"
+        url: "search?search=azerbaijan"
     },
     BI: {
         name: "Burundi",
-        url: "country/burundi"
+        url: "search?search=burundi"
     },
     BE: {
         name: "Bélgica",
-        url: "country/belgium"
+        url: "search?search=belgium"
     },
     BJ: {
         name: "Benin",
-        url: "country/benin"
+        url: "search?search=benin"
     },
     BF: {
         name: "Burkina Faso",
-        url: "country/burkina-faso"
+        url: "search?search=burkina-faso"
     },
     BD: {
         name: "Bangladesh",
-        url: "country/bangladesh"
+        url: "search?search=bangladesh"
     },
     BG: {
         name: "Bulgária",
-        url: "country/bulgaria"
+        url: "search?search=bulgaria"
     },
     BH: {
         name: "Barém",
-        url: "country/bahrain"
+        url: "search?search=bahrain"
     },
     BA: {
         name: "Bósnia e Herzegovina",
-        url: "country/bosnia-and-herzegovina"
+        url: "search?search=bosnia-and-herzegovina"
     },
     BY: {
         name: "Bielorrússia",
-        url: "country/belarus"
+        url: "search?search=belarus"
     },
     BZ: {
         name: "Belize",
-        url: "country/belize"
+        url: "search?search=belize"
     },
     BO: {
         name: "Bolívia",
-        url: "country/bolivia"
+        url: "search?search=bolivia"
     },
     BR: {
         name: "Brasil",
-        url: "country/brazil",
+        url: "search?search=brazil",
     },
     BN: {
         name: "Brunei Darussalam",
-        url: "country/brunei-darussalam"
+        url: "search?search=brunei-darussalam"
     },
     BT: {
         name: "Butão",
-        url: "country/bhutan"
+        url: "search?search=bhutan"
     },
     BW: {
         name: "Botsuana",
-        url: "country/botswana"
+        url: "search?search=botswana"
     },
     CF: {
         name: "República Centro-Africana",
-        url: "country/central-african-republic"
+        url: "search?search=central-african-republic"
     },
     CA: {
         name: "Canadá",
-        url: "country/canada"
+        url: "search?search=canada"
     },
     CH: {
         name: "Suíça",
-        url: "country/switzerland"
+        url: "search?search=switzerland"
     },
     CL: {
         name: "Chile",
-        url: "country/chile"
+        url: "search?search=chile"
     },
     CN: {
         name: "China",
-        url: "country/china"
+        url: "search?search=china"
     },
     CI: {
         name: "Costa do Marfim",
-        url: "country/ivory-coast"
+        url: "search?search=ivory-coast"
     },
     CM: {
         name: "Camarões",
-        url: "country/cameroon"
+        url: "search?search=cameroon"
     },
     CD: {
         name: "República Democrática do Congo",
-        url: "country/democratic-republic-of-the-congo"
+        url: "search?search=democratic-republic-of-the-congo"
     },
     CG: {
         name: "Congo",
-        url: "country/congo"
+        url: "search?search=congo"
     },
     CO: {
         name: "Colômbia",
-        url: "country/colombia"
+        url: "search?search=colombia"
     },
     CR: {
         name: "Costa Rica",
-        url: "country/costa-rica"
+        url: "search?search=costa-rica"
     },
     CU: {
         name: "Cuba",
-        url: "country/cuba",
+        url: "search?search=cuba",
     },
     CZ: {
         name: "República Tcheca",
-        url: "country/czech-republic"
+        url: "search?search=czech-republic"
     },
     DE: {
         name: "Alemanha",
-        url: "country/germany"
+        url: "search?search=germany"
     },
     DJ: {
         name: "Djibuti",
-        url: "country/djibouti"
+        url: "search?search=djibouti"
     },
     DK: {
         name: "Dinamarca",
-        url: "country/denmark"
+        url: "search?search=denmark"
     },
     DO: {
         name: "República Dominicana",
-        url: "country/dominican-republic"
+        url: "search?search=dominican-republic"
     },
     DZ: {
         name: "Argélia",
-        url: "country/algeria"
+        url: "search?search=algeria"
     },
     EC: {
         name: "Equador",
-        url: "country/ecuador"
+        url: "search?search=ecuador"
     },
     EG: {
         name: "Egito",
-        url: "country/egypt",
+        url: "search?search=egypt",
     },
     ER: {
         name: "Eritreia",
-        url: "country/eritrea"
+        url: "search?search=eritrea"
     },
     EE: {
         name: "Estônia",
-        url: "country/estonia"
+        url: "search?search=estonia"
     },
     ET: {
         name: "Etiópia",
-        url: "country/ethiopia"
+        url: "search?search=ethiopia"
     },
     FI: {
         name: "Finlândia",
-        url: "country/finland"
+        url: "search?search=finland"
     },
     FJ: {
         name: "Fiji",
-        url: "country/fiji"
+        url: "search?search=fiji"
     },
     GA: {
         name: "Gabão",
-        url: "country/gabon"
+        url: "search?search=gabon"
     },
     GB: {
         name: "Reino Unido",
-        url: "country/united-kingdom"
+        url: "search?search=united-kingdom"
     },
     GE: {
         name: "Geórgia",
-        url: "country/georgia"
+        url: "search?search=georgia"
     },
     GH: {
         name: "Gana",
-        url: "country/ghana"
+        url: "search?search=ghana"
     },
     GN: {
         name: "Guiné",
-        url: "country/guinea"
+        url: "search?search=guinea"
     },
     GM: {
         name: "Gâmbia",
-        url: "country/gambia"
+        url: "search?search=gambia"
     },
     GW: {
         name: "Guiné-Bissau",
-        url: "country/guinea-bissau"
+        url: "search?search=guinea-bissau"
     },
     GQ: {
         name: "Guiné Equatorial",
-        url: "country/equatorial-guinea"
+        url: "search?search=equatorial-guinea"
     },
     GR: {
         name: "Grécia",
-        url: "country/greece"
+        url: "search?search=greece"
     },
     GL: {
         name: "Groenlândia",
-        url: "country/greenland"
+        url: "search?search=greenland"
     },
     GT: {
         name: "Guatemala",
-        url: "country/guatemala"
+        url: "search?search=guatemala"
     },
     GY: {
         name: "Guiana",
-        url: "country/guyana"
+        url: "search?search=guyana"
     },
     HN: {
         name: "Honduras",
-        url: "country/honduras"
+        url: "search?search=honduras"
     },
     HR: {
         name: "Croácia",
-        url: "country/croatia"
+        url: "search?search=croatia"
     },
     HT: {
         name: "Haiti",
-        url: "country/haiti"
+        url: "search?search=haiti"
     },
     HU: {
         name: "Hungria",
-        url: "country/hungary"
+        url: "search?search=hungary"
     },
     ID: {
         name: "Indonésia",
-        url: "country/indonesia"
+        url: "search?search=indonesia"
     },
     IN: {
         name: "Índia",
-        url: "country/india"
+        url: "search?search=india"
     },
     IE: {
         name: "Irlanda",
-        url: "country/ireland"
+        url: "search?search=ireland"
     },
     IR: {
         name: "Irã",
-        url: "country/iran"
+        url: "search?search=iran"
     },
     IQ: {
         name: "Iraque",
-        url: "country/iraq"
+        url: "search?search=iraq"
     },
     IS: {
         name: "Islândia",
-        url: "country/iceland"
+        url: "search?search=iceland"
     },
     IL: {
         name: "Israel",
-        url: "country/israel"
+        url: "search?search=israel"
     },
     IT: {
         name: "Itália",
-        url: "country/italy",
+        url: "search?search=italy",
     },
     JM: {
         name: "Jamaica",
-        url: "country/jamaica"
+        url: "search?search=jamaica"
     },
     JO: {
         name: "Jordânia",
-        url: "country/jordan"
+        url: "search?search=jordan"
     },
     JP: {
         name: "Japão",
-        url: "country/japan",
+        url: "search?search=japan",
     },
     KZ: {
         name: "Cazaquistão",
-        url: "country/kazakhstan"
+        url: "search?search=kazakhstan"
     },
     KE: {
         name: "Quênia",
-        url: "country/kenya"
+        url: "search?search=kenya"
     },
     KG: {
         name: "Quirguistão",
-        url: "country/kyrgyzstan"
+        url: "search?search=kyrgyzstan"
     },
     KH: {
         name: "Camboja",
-        url: "country/cambodia"
+        url: "search?search=cambodia"
     },
     KR: {
         name: "Coreia do Sul",
-        url: "country/south-korea"
+        url: "search?search=south-korea"
     },
     XK: {
         name: "Kosovo",
-        url: "country/kosovo"
+        url: "search?search=kosovo"
     },
     KW: {
         name: "Kuwait",
-        url: "country/kuwait"
+        url: "search?search=kuwait"
     },
     LA: {
         name: "Laos",
-        url: "country/laos"
+        url: "search?search=laos"
     },
     LB: {
         name: "Líbano",
-        url: "country/lebanon"
+        url: "search?search=lebanon"
     },
     LR: {
         name: "Libéria",
-        url: "country/liberia"
+        url: "search?search=liberia"
     },
     LY: {
         name: "Líbia",
-        url: "country/libya"
+        url: "search?search=libya"
     },
     LK: {
         name: "Sri Lanka",
-        url: "country/sri-lanka"
+        url: "search?search=sri-lanka"
     },
     LS: {
         name: "Lesoto",
-        url: "country/lesotho"
+        url: "search?search=lesotho"
     },
     LT: {
         name: "Lituânia",
-        url: "country/lithuania"
+        url: "search?search=lithuania"
     },
     LU: {
         name: "Luxemburgo",
-        url: "country/luxembourg"
+        url: "search?search=luxembourg"
     },
     LV: {
         name: "Letônia",
-        url: "country/latvia"
+        url: "search?search=latvia"
     },
     MA: {
         name: "Marrocos",
-        url: "country/morocco",
+        url: "search?search=morocco",
     },
     MD: {
         name: "Moldávia",
-        url: "country/moldova"
+        url: "search?search=moldova"
     },
     MG: {
         name: "Madagáscar",
-        url: "country/madagascar"
+        url: "search?search=madagascar"
     },
     MX: {
         name: "México",
-        url: "country/mexico",
+        url: "search?search=mexico",
     },
     MK: {
         name: "Macedónia do Norte",
-        url: "country/north-macedonia"
+        url: "search?search=north-macedonia"
     },
     ML: {
         name: "Mali",
-        url: "country/mali"
+        url: "search?search=mali"
     },
     MM: {
         name: "Mianmar (Birmânia)",
-        url: "country/myanmar"
+        url: "search?search=myanmar"
     },
     ME: {
         name: "Montenegro",
-        url: "country/montenegro"
+        url: "search?search=montenegro"
     },
     MN: {
         name: "Mongólia",
-        url: "country/mongolia"
+        url: "search?search=mongolia"
     },
     MZ: {
         name: "Moçambique",
-        url: "country/mozambique"
+        url: "search?search=mozambique"
     },
     MR: {
         name: "Mauritânia",
-        url: "country/mauritania"
+        url: "search?search=mauritania"
     },
     MW: {
         name: "Malawi",
-        url: "country/malawi"
+        url: "search?search=malawi"
     },
     MY: {
         name: "Malásia",
-        url: "country/malaysia"
+        url: "search?search=malaysia"
     },
     NA: {
         name: "Namíbia",
-        url: "country/namibia"
+        url: "search?search=namibia"
     },
     NE: {
         name: "Níger",
-        url: "country/niger"
+        url: "search?search=niger"
     },
     NG: {
         name: "Nigéria",
-        url: "country/nigeria"
+        url: "search?search=nigeria"
     },
     NI: {
         name: "Nicarágua",
-        url: "country/nicaragua"
+        url: "search?search=nicaragua"
     },
     NL: {
         name: "Países Baixos (Holanda)",
-        url: "country/netherlands"
+        url: "search?search=netherlands"
     },
     NO: {
         name: "Noruega",
-        url: "country/norway"
+        url: "search?search=norway"
     },
     NP: {
         name: "Nepal",
-        url: "country/nepal"
+        url: "search?search=nepal"
     },
     NZ: {
         name: "Nova Zelândia",
-        url: "country/new-zealand",
+        url: "search?search=new-zealand",
     },
     OM: {
         name: "Omã",
-        url: "country/oman"
+        url: "search?search=oman"
     },
     PK: {
         name: "Paquistão",
-        url: "country/pakistan"
+        url: "search?search=pakistan"
     },
     PA: {
         name: "Panamá",
-        url: "country/panama"
+        url: "search?search=panama"
     },
     PE: {
         name: "Peru",
-        url: "country/peru"
+        url: "search?search=peru"
     },
     PH: {
         name: "Filipinas",
-        url: "country/philippines"
+        url: "search?search=philippines"
     },
     PG: {
         name: "Papua-Nova Guiné",
-        url: "country/papua-new-guinea"
+        url: "search?search=papua-new-guinea"
     },
     PL: {
         name: "Polónia",
-        url: "country/poland"
+        url: "search?search=poland"
     },
     KP: {
         name: "Coreia do Norte",
-        url: "country/north-korea"
+        url: "search?search=north-korea"
     },
     PT: {
         name: "Portugal",
-        url: "country/portugal"
+        url: "search?search=portugal"
     },
     PY: {
         name: "Paraguai",
-        url: "country/paraguay"
+        url: "search?search=paraguay"
     },
     PS: {
         name: "Palestina",
-        url: "country/palestine",
+        url: "search?search=palestine",
     },
     QA: {
         name: "Catar",
-        url: "country/qatar"
+        url: "search?search=qatar"
     },
     RO: {
         name: "Roménia",
-        url: "country/romania"
+        url: "search?search=romania"
     },
     RU: {
         name: "Rússia",
-        url: "country/russia"
+        url: "search?search=russia"
     },
     RW: {
         name: "Ruanda",
-        url: "country/rwanda"
+        url: "search?search=rwanda"
     },
     EH: {
         name: "Saara Ocidental",
-        url: "country/western-sahara"
+        url: "search?search=western-sahara"
     },
     SA: {
         name: "Arábia Saudita",
-        url: "country/saudi-arabia"
+        url: "search?search=saudi-arabia"
     },
     SD: {
         name: "Sudão",
-        url: "country/sudan"
+        url: "search?search=sudan"
     },
     SS: {
         name: "Sudão do Sul",
-        url: "country/south-sudan"
+        url: "search?search=south-sudan"
     },
     SN: {
         name: "Senegal",
-        url: "country/senegal"
+        url: "search?search=senegal"
     },
     SL: {
         name: "Serra Leoa",
-        url: "country/sierra-leone"
+        url: "search?search=sierra-leone"
     },
     SV: {
         name: "El Salvador",
-        url: "country/el-salvador"
+        url: "search?search=el-salvador"
     },
     RS: {
         name: "Sérvia",
-        url: "country/serbia"
+        url: "search?search=serbia"
     },
     SR: {
         name: "Suriname",
-        url: "country/suriname"
+        url: "search?search=suriname"
     },
     SK: {
         name: "Eslováquia",
-        url: "country/slovakia"
+        url: "search?search=slovakia"
     },
     SI: {
         name: "Eslovênia",
-        url: "country/slovenia"
+        url: "search?search=slovenia"
     },
     SE: {
         name: "Suécia",
-        url: "country/sweden"
+        url: "search?search=sweden"
     },
     SZ: {
         name: "Suazilândia",
-        url: "country/eswatini"
+        url: "search?search=eswatini"
     },
     SY: {
         name: "Síria",
-        url: "country/syria"
+        url: "search?search=syria"
     },
     TD: {
         name: "Chade",
-        url: "country/chad"
+        url: "search?search=chad"
     },
     TG: {
         name: "Togo",
-        url: "country/togo"
+        url: "search?search=togo"
     },
     TH: {
         name: "Tailândia",
-        url: "country/thailand"
+        url: "search?search=thailand"
     },
     TJ: {
         name: "Tajiquistão",
-        url: "country/tajikistan"
+        url: "search?search=tajikistan"
     },
     TM: {
         name: "Turcomenistão",
-        url: "country/turkmenistan"
+        url: "search?search=turkmenistan"
     },
     TL: {
         name: "Timor-Leste",
-        url: "country/east-timor"
+        url: "search?search=east-timor"
     },
     TN: {
         name: "Tunísia",
-        url: "country/tunisia"
+        url: "search?search=tunisia"
     },
     TR: {
         name: "Turquia",
-        url: "country/turkey"
+        url: "search?search=turkey"
     },
     TW: {
         name: "Taiwan",
-        url: "country/taiwan"
+        url: "search?search=taiwan"
     },
     TZ: {
         name: "Tanzânia",
-        url: "country/tanzania"
+        url: "search?search=tanzania"
     },
     UG: {
         name: "Uganda",
-        url: "country/uganda"
+        url: "search?search=uganda"
     },
     UA: {
         name: "Ucrânia",
-        url: "country/ukraine"
+        url: "search?search=ukraine"
     },
     UY: {
         name: "Uruguai",
-        url: "country/uruguay"
+        url: "search?search=uruguay"
     },
     US: {
         name: "Estados Unidos",
-        url: "country/usa"
+        url: "search?search=usa"
     },
     UZ: {
         name: "Uzbequistão",
-        url: "country/uzbekistan"
+        url: "search?search=uzbekistan"
     },
     VE: {
         name: "Venezuela",
-        url: "country/venezuela"
+        url: "search?search=venezuela"
     },
     VN: {
         name: "Vietnã",
-        url: "country/vietnam"
+        url: "search?search=vietnam"
     },
     VU: {
         name: "Vanuatu",
-        url: "country/vanuatu"
+        url: "search?search=vanuatu"
     },
     YE: {
         name: "Iémen",
-        url: "country/yemen"
+        url: "search?search=yemen"
     },
     ZA: {
         name: "África do Sul",
-        url: "country/south-africa"
+        url: "search?search=south-africa"
     },
     ZM: {
         name: "Zâmbia",
-        url: "country/zambia"
+        url: "search?search=zambia"
     },
     ZW: {
         name: "Zimbábue",
-        url: "country/zimbabwe"
+        url: "search?search=zimbabwe"
     },
     SO: {
         name: "Somália",
-        url: "country/somalia"
+        url: "search?search=somalia"
     },
     GF: {
         name: "Guiana Francesa",
-        url: "country/french-guiana"
+        url: "search?search=french-guiana"
     },
     FR: {
         name: "França",
-        url: "country/france"
+        url: "search?search=france"
     },
     ES: {
         name: "Espanha",
-        url: "country/spain"
+        url: "search?search=spain"
     },
     AW: {
         name: "Aruba",
-        url: "country/aruba"
+        url: "search?search=aruba"
     },
     AI: {
         name: "Anguila",
-        url: "country/anguilla"
+        url: "search?search=anguilla"
     },
     AD: {
         name: "Andorra",
-        url: "country/andorra"
+        url: "search?search=andorra"
     },
     AG: {
         name: "Antígua e Barbuda",
-        url: "country/antigua-and-barbuda"
+        url: "search?search=antigua-and-barbuda"
     },
     BS: {
         name: "Bahamas",
-        url: "country/bahamas"
+        url: "search?search=bahamas"
     },
     BM: {
         name: "Bermudas",
-        url: "country/bermuda"
+        url: "search?search=bermuda"
     },
     BB: {
         name: "Barbados",
-        url: "country/barbados"
+        url: "search?search=barbados"
     },
     KM: {
         name: "Comores",
-        url: "country/comoros"
+        url: "search?search=comoros"
     },
     CV: {
         name: "Cabo Verde",
-        url: "country/cape-verde"
+        url: "search?search=cape-verde"
     },
     KY: {
         name: "Ilhas Cayman",
-        url: "country/cayman-islands"
+        url: "search?search=cayman-islands"
     },
     DM: {
         name: "Dominica",
-        url: "country/dominica"
+        url: "search?search=dominica"
     },
     FK: {
         name: "Ilhas Malvinas",
-        url: "country/falkland-islands"
+        url: "search?search=falkland-islands"
     },
     FO: {
         name: "Ilhas Faroé",
-        url: "country/faroe-islands"
+        url: "search?search=faroe-islands"
     },
     GD: {
         name: "Granada",
-        url: "country/grenada"
+        url: "search?search=grenada"
     },
     HK: {
         name: "Hong Kong",
-        url: "country/hong-kong"
+        url: "search?search=hong-kong"
     },
     KN: {
         name: "São Cristóvão e Nevis",
-        url: "country/saint-kitts-and-nevis"
+        url: "search?search=saint-kitts-and-nevis"
     },
     LC: {
         name: "Santa Lúcia",
-        url: "country/saint-lucia"
+        url: "search?search=saint-lucia"
     },
     LI: {
         name: "Liechtenstein",
-        url: "country/liechtenstein"
+        url: "search?search=liechtenstein"
     },
     MF: {
         name: "São Martinho (Francês)",
-        url: "country/saint-martin-french"
+        url: "search?search=saint-martin-french"
     },
     MV: {
         name: "Maldivas",
-        url: "country/maldives"
+        url: "search?search=maldives"
     },
     MT: {
         name: "Malta",
-        url: "country/malta"
+        url: "search?search=malta"
     },
     MS: {
         name: "Monserrate",
-        url: "country/montserrat"
+        url: "search?search=montserrat"
     },
     MU: {
         name: "Maurícia",
-        url: "country/mauritius"
+        url: "search?search=mauritius"
     },
     NC: {
         name: "Nova Caledônia",
-        url: "country/new-caledonia"
+        url: "search?search=new-caledonia"
     },
     NR: {
         name: "Nauru",
-        url: "country/nauru"
+        url: "search?search=nauru"
     },
     PN: {
         name: "Ilhas Pitcairn",
-        url: "country/pitcairn-islands"
+        url: "search?search=pitcairn-islands"
     },
     PR: {
         name: "Porto Rico",
-        url: "country/puerto-rico"
+        url: "search?search=puerto-rico"
     },
     PF: {
         name: "Polinésia Francesa",
-        url: "country/french-polynesia"
+        url: "search?search=french-polynesia"
     },
     SG: {
         name: "Singapura",
-        url: "country/singapore"
+        url: "search?search=singapore"
     },
     SB: {
         name: "Ilhas Salomão",
-        url: "country/solomon-islands"
+        url: "search?search=solomon-islands"
     },
     ST: {
         name: "São Tomé e Príncipe",
-        url: "country/sao-tome-and-principe"
+        url: "search?search=sao-tome-and-principe"
     },
     SX: {
         name: "São Martinho (Holandês)",
-        url: "country/sint-maarten-dutch"
+        url: "search?search=sint-maarten-dutch"
     },
     SC: {
         name: "Seychelles",
-        url: "country/seychelles"
+        url: "search?search=seychelles"
     },
     TC: {
         name: "Ilhas Turks e Caicos",
-        url: "country/turks-and-caicos-islands"
+        url: "search?search=turks-and-caicos-islands"
     },
     TO: {
         name: "Tonga",
-        url: "country/tonga"
+        url: "search?search=tonga"
     },
     TT: {
         name: "Trindade e Tobago",
-        url: "country/trinidad-and-tobago"
+        url: "search?search=trinidad-and-tobago"
     },
     VC: {
         name: "São Vicente e Granadinas",
-        url: "country/saint-vincent-and-the-grenadines"
+        url: "search?search=saint-vincent-and-the-grenadines"
     },
     VG: {
         name: "Ilhas Virgens Britânicas",
-        url: "country/british-virgin-islands"
+        url: "search?search=british-virgin-islands"
     },
     VI: {
         name: "Ilhas Virgens dos EUA",
-        url: "country/us-virgin-islands"
+        url: "search?search=us-virgin-islands"
     },
     CY: {
         name: "Chipre",
-        url: "country/cyprus"
+        url: "search?search=cyprus"
     },
     RE: {
         name: "Reunião",
-        url: "country/reunion"
+        url: "search?search=reunion"
     },
     YT: {
         name: "Mayotte",
-        url: "country/mayotte"
+        url: "search?search=mayotte"
     },
     MQ: {
         name: "Martinica",
-        url: "country/martinique"
+        url: "search?search=martinique"
     },
     GP: {
         name: "Guadalupe",
-        url: "country/guadeloupe"
+        url: "search?search=guadeloupe"
     },
     CW: {
         name: "Curaçao",
-        url: "country/curacao"
+        url: "search?search=curacao"
     },
     IC: {
         name: "Ilhas Canárias",
-        url: "country/canary-islands"
+        url: "search?search=canary-islands"
     }
   },
   locations: {},

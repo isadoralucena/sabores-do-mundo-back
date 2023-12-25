@@ -9,6 +9,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.zoom{
+    transition: all 2s ease-in-out
+}
+.zoom:hover{
+    transform: scale(2, 2);
+    cursor: pointer;
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #444444;
@@ -1308,7 +1315,7 @@ section {
 
 #pic-d{
   width: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 #pic-dashboard{
@@ -1322,7 +1329,7 @@ section {
 .pagination-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .pagination {
@@ -1332,21 +1339,21 @@ section {
 }
 
 .pagination-item {
-  margin: 0 5px; 
+  margin: 0 5px;
 }
 
 .pagination-item a, .pagination-item span {
-  padding: 10px 15px; 
-  font-size: 16px; 
+  padding: 10px 15px;
+  font-size: 16px;
   text-decoration: none;
-  color: #333; 
-  border: 1px solid #ddd; 
-  border-radius: 5px; 
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .pagination-item.active span {
   background-color: #ffb03b;
-  color: #fff; 
+  color: #fff;
 }
 
 @media (max-width: 992px) {

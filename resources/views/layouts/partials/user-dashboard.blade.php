@@ -6,9 +6,9 @@
                 <div id="recipe-dashboard" class="d-flex align-items-center">
                     <div id="pic-dashboard">
                         @if($recipe->photo_path)
-                            <img src="{{ asset('storage/' . $recipe->photo_path) }}" class="img-fluid" id="pic-d" alt="Imagem da Receita">
+                            <img src="{{ asset('storage/' . $recipe->photo_path) }}" class="zoom img-fluid" id="pic-d" alt="Imagem da Receita">
                         @else
-                            <img src="assets/img/generic.jpg" class="img-fluid" id="pic-d">
+                            <img src="assets/img/generic.jpg" class="zoom img-fluid" id="pic-d">
                         @endif
                     </div>
                     <a href="{{route('show', $recipe->id)}}" class="text-decoration-none">

@@ -75,10 +75,12 @@
                             <img src="assets/img/generic.jpg" class="zoom img-fluid">
                         @endif
                         </div>
-                        <div class="recipe-info">
+                        <a href="{{route('show', ['id'=>$recipe->id])}}">
+                            <div class="recipe-info">
                             <h4>{{$recipe->title}}</h4>
                             <span>{{$recipe->user->name}}</span>
                         </div>
+                        </a>
                     </div>
                 </div>
 

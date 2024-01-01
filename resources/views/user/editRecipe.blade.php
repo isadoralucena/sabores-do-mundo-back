@@ -49,7 +49,7 @@
           <h1>Editar Receita</h1>
           <ol>
             <li><a href="/">Home</a></li>
-            <li><a href="/myRecipes">MyRecipes</a></li>
+            <li><a href="/myRecipes">Minhas receitas</a></li>
             <li>Editar Receita</li>
           </ol>
         </div>

@@ -1,10 +1,12 @@
 @extends('layouts.main')
 
-@extends('layouts.partials.header-dynamic')
+
 
 @section('title', 'Sabores do mundo')
 
 @section('content')
+
+    @include('layouts.partials.header-dynamic')
 
     <!-- ======= Hero Section ======= -->
     <section id="hero">
